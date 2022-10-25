@@ -18,6 +18,6 @@ public class SayHelloController : ControllerBase
     public string SayHello(string name)
     {
         // This will take the user's name from the URL and print it along with some other text
-        return $"Hello there, {name}. I hope you're having a nice day today";
+        return $"Hello, {name}. I hope you're having a nice day today";
     }
 }
