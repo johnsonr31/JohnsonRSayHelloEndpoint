@@ -12,7 +12,7 @@ namespace JohnsonRSayHelloEndpoint.Controllers;
 public class SayHelloController : ControllerBase
 {
     [HttpGet]
-    // The route is how the user will get to the right part of the API. They need to include their name in the URL
+    // The route is how the user will get to the right part of the API. They need to include their name in the URL for it to work
     [Route("Hello/{name}")]
 
     public string SayHello(string name)
