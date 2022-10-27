@@ -1,7 +1,7 @@
 // Richard Johnson
 // 10-25-22
 // This api will take the user's name and return it when they include their name in the URL
-// Peer Review: 
+// Peer Review: Pedro Castaneda - I like the simplicity of the function and the cleanliness of the code. I think you did a great job with naming conventions in your route and controller.cs file. The only thing I would suggest giving a try is validation for the input to make sure they do not input an integer. Other than that excellent job!
 
 using Microsoft.AspNetCore.Mvc;
 
